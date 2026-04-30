@@ -9,8 +9,8 @@
     {
       "name": "caveman",
       "source": {
-        "source": "github",
-        "repo": "akramsystems/caveman"
+        "source": "url",
+        "url": "https://github.com/akramsystems/caveman.git"
       },
       "description": "Talk like caveman. Short words, short sentences, no fluff."
     }
