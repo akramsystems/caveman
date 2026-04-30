@@ -1,0 +1,15 @@
+{
+  "name": "akramsystems-plugins",
+  "owner": {
+    "name": "Ali Akram",
+    "email": "akramsystems@gmail.com",
+    "url": "https://github.com/akramsystems"
+  },
+  "plugins": [
+    {
+      "name": "caveman",
+      "source": ".",
+      "description": "Talk like caveman. Short words, short sentences, no fluff."
+    }
+  ]
+}
