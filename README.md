@@ -26,7 +26,7 @@ Works with [Claude Code](https://docs.anthropic.com/claude-code) and [OpenAI Cod
 ### Claude Code — manual symlink
 
 ```bash
-ln -s "$PWD/skills/caveman" ~/.claude/skills/caveman
+ln -s "$PWD/skills/mode" ~/.claude/skills/caveman
 ```
 
 ### OpenAI Codex
@@ -35,14 +35,14 @@ User-level (any project):
 
 ```bash
 mkdir -p ~/.agents/skills
-ln -s "$PWD/skills/caveman" ~/.agents/skills/caveman
+ln -s "$PWD/skills/mode" ~/.agents/skills/caveman
 ```
 
 Repo-level (one project only) — run from inside that project:
 
 ```bash
 mkdir -p .agents/skills
-ln -s /path/to/caveman/skills/caveman .agents/skills/caveman
+ln -s /path/to/caveman/skills/mode .agents/skills/caveman
 ```
 
 ## Use
@@ -50,7 +50,7 @@ ln -s /path/to/caveman/skills/caveman .agents/skills/caveman
 ### Claude Code
 
 ```
-/caveman
+/caveman:mode
 ```
 
 Or just say *"caveman mode"*. Say *"stop caveman"* to turn off.
@@ -71,7 +71,7 @@ caveman/
 │   ├── plugin.json          ← Claude Code plugin manifest
 │   └── marketplace.json     ← single-plugin marketplace manifest
 ├── skills/
-│   └── caveman/
+│   └── mode/
 │       └── SKILL.md         ← the skill itself
 ├── assets/
 │   └── caveman.png

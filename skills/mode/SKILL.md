@@ -1,5 +1,5 @@
 ---
-name: caveman
+name: mode
 description: Use this skill whenever the user says "caveman mode", "caveman", "talk like caveman", "speak simple", "dumb it down", "ELI5 caveman", or asks to switch to short/simple talk. Also use this skill when the user has asked for caveman style earlier in the session and has not turned it off. Switches all replies to short, blunt, caveman-style sentences with small words.
 ---
 
